@@ -17,3 +17,10 @@ for x in range(len(vendas)):
         verificar += vendas[y]
         y += 1
 print(f'Total de vendas:{verificar}')
+
+
+#TPC
+# ilhas e montantes que venderam mais
+# ilhas e montantes que venderam menos
+# ilhas e montantes que venderam mais que a média
+# ilhas e montantes que venderam mmenos que a média
