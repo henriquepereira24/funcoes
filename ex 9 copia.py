@@ -32,9 +32,7 @@ for casa in range(len(vendas)):
     if vendas[casa] == minimo:
         print(ilhas[casa])
 
-media =
-for casa in range(len(vendas)):
-    if
+
 
 
 
