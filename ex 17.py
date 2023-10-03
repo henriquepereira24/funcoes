@@ -19,10 +19,10 @@ for ilha in vendas:
 print(vendas)
 
 for k in vendas.values():
-    print(k) # aceder aos valores
+    print(f'aaaa{k}') # aceder aos valores
 
 for v in vendas.keys():
-    print(v) # aceder as keys
+    print(f'abb{v}') # aceder as keys
 
 for z in vendas.pop('Faial'):
     print(z)
