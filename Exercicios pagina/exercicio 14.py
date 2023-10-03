@@ -1,9 +1,11 @@
-#Escreva um programa que lê um numero inteiro e calcula a soma dos seus dígitos.
+#Escreva um programa que lê um inteiro e calcula a soma dos seus dígitos.
 
-n1 = int(input('Primeiro Valor:\n'))
-n2 = int(input('Segundo Valor:\n'))
+numero = str(input('Escreve um número:'))
 
-soma = n1 + n2
+soma = 0
+
+for x in numero:
+    soma += int(x)
 
 
 print(f'A Soma dos dois valores é:\n{soma}')
